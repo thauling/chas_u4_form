@@ -24,9 +24,12 @@ Bygg en enkel html-sida som har ett formulär som tar in
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif]
         
-    <form method="get" action="">
+          <script src="" async defer></script> 
+        -->
+        
+    <form method="get" action="thanks.html">
     <div class="form-example">
     <label for="name">Enter your name: </label>
     <input type="text" name="name" id="name" required>
@@ -40,10 +43,10 @@ Bygg en enkel html-sida som har ett formulär som tar in
         <input type="text" name="message" id="message" required>
     </div>
     <div class="form-example">
-        <input type="submit" value="Submit!">
+        <input id="submit-button" type="submit" value="Submit!">
     </div>
     </form>
 
-        {% comment %} <script src="" async defer></script> {% endcomment %}
+       
     </body>
 </html>
